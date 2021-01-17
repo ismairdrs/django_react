@@ -5,7 +5,7 @@ from apps.core.models import Item, List
 class ItemSerializer(ModelSerializer):
     class Meta:
         model = Item
-        fields = ('id', 'name', 'list')
+        fields = ('id', 'name', 'list', 'done')
 
 
 class ListSerializer(ModelSerializer):
