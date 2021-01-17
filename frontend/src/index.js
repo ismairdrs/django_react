@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import UserList from './UserList';
+import LoginComponent from './LoginComponente';
 import reportWebVitals from './reportWebVitals';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <UserList />
+    <LoginComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
